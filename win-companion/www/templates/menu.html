@@ -1,0 +1,56 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button></ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left" class="dark-bg"> <!-- expose-aside-when="large"> -->
+    <ion-header-bar class="bar-dark">
+      <h1 class="title">Winner's Companion</h1>
+    </ion-header-bar>
+    <ion-content >
+      <ion-list>
+        <ion-item menu-close href="#/app/home" class="item item-icon-left item-dark">
+          <span class='icon ion-home'></span>
+          Home
+        </ion-item>
+        <ion-item menu-close href="#/app/proclaim" class="item item-icon-left item-dark">
+          <span class='icon ion-speakerphone'></span>
+          Proclamations
+        </ion-item>
+        <ion-item menu-close href="#/app/news" class="item item-icon-left item-dark">
+          <span class='icon ion-social-designernews'></span>
+          News
+        </ion-item>
+        <ion-item menu-close href="#/app/playlists" class="item item-icon-left item-dark">
+          <span class='icon ion-android-settings'></span>
+          Settings
+        </ion-item>
+        <ion-item menu-close href="#/app/playlists" class="item item-icon-left item-dark">
+          <span class='icon ion-chatbubbles'></span>
+          Tell a friend
+        </ion-item>
+        <ion-item menu-close href="#/app/playlists" class="item item-icon-left item-dark">
+          <span class='icon ion-ios-location'></span>
+          Near By
+        </ion-item>
+        <ion-item menu-close href="#/app/search"  class="item item-icon-left item-dark">
+          <span class='icon ion-search'></span>
+          Search
+        </ion-item>
+        <!-- <ion-item menu-close href="login()">
+          Browse
+        </ion-item>
+        <ion-item menu-close href="#/app/playlists">
+          Playlists
+        </ion-item> -->
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
