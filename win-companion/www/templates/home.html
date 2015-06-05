@@ -1,5 +1,46 @@
 <ion-view view-title="Home">
+  <!-- Modal header bar -->
+  <!-- <ion-header-bar class="bar-secondary">
+    <h1 class="title">New Task</h1>
+    <button class="button button-clear button-positive" ng-click="closeNewTask()">Cancel</button>
+  </ion-header-bar> -->
+
   <ion-content>
-    <h1>Home Content</h1>
+    <ion-list>
+      <ion-item style="padding:0 0 0 0"> <!--ng-repeat="item in items"> -->
+        <!-- <table>
+          <tr><td colspan="3"><i class='ion-speakerphone padding-right'></i><b>Proclamation of the day</b></td></th>
+          <tr ><td colspan="3"><div class="item-body">"All through 2015, I shall be taking delivery of my daily load of benefits"<div></td></tr>
+          <tr><td><a class="button button-icon icon ion-gear-a"></a></td><td><i class='button button-icon icon ion-volume-high'></i></td><td><a class='button button-icon icon ion-share'></a></td></tr>
+        </table> -->
+        <div class="list">
+        <div class="item item-icon-left" style="margin-left:0">
+          <i class="icon ion-speakerphone"></i><b>Proclamation of the day</b>
+        </div>
+        <div class="item" style="padding:5px 5px 5px 16px">
+          <h2 style="margin:0px;padding-bottom:10px">Everyday shall be Chrismas for me</h2>
+          <div style="float:left;font-size:35px;font-family:Times New Roman;color:#c6c6c6">“</div>
+          <div class="item-body" style="padding:0px 0 3px 5px; border-top:0">
+            All through 2015, I shall be taking delivery of my daily loads of blessings.<br><b>Ps. 68:19</b>
+          </div>
+        </div>
+        <div class="item tabs tabs-icon-only">
+          <a class="tab-item" style="max-width:100%"><i class="icon ion-volume-high"></i></a>
+          <a class="tab-item" style="max-width:100%"><i class="icon ion-share"></i></a>
+          <a class="tab-item" style="max-width:100%"><i class="icon ion-gear-a"></i></a>
+        </div>
+      </div>
+      </ion-item>
+    </ion-list>
+    <!-- <form ng-submit="createTask(task)">
+      <div class="list">
+        <label class="item item-input">
+          <input type="text" placeholder="What do you need to do?" ng-model="task.title">
+        </label>
+      </div>
+      <div class="padding">
+        <button type="submit" class="button button-block button-positive">Create Task</button>
+      </div>
+    </form> -->
   </ion-content>
 </ion-view>
